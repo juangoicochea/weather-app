@@ -1,0 +1,14 @@
+.containerAbout {
+    width: 80%;
+    margin: 0 auto;
+    color: #005F73;
+}
+.sociallogo {
+    width: 50px;
+    margin-left: 20px;
+}
+@media (max-width: 600px) {
+    .sociallogo {
+        margin-left: 11px;
+    }
+}

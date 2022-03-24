@@ -1,0 +1,66 @@
+.logoHenry {
+  position: relative;
+  margin-right: 20px;
+}
+
+.colorspan{
+  position: relative;
+  top: 5px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  left: -15px;
+}
+
+.menubar {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tamano {
+  width: 350px;
+  min-width: 350px;
+}
+.aboutMe {
+  color: white;
+}
+.centerEl {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 445px;
+}
+.centerEl1 {
+  float: left;
+  margin-right: 40px;
+}
+.centerEl2 {
+  float: left;
+}
+@media (max-width: 600px) {
+  .tamano, .centerEl {
+    width: 100%;
+    min-width: 100%;
+  }
+  .flex {
+    display: block;
+  }
+  .centerEl1 {
+    width: 25%;
+    margin-right: 5px;
+  }
+  .centerEl2 {
+    width: 75%;
+  }
+  .centerEl2 input {
+    width: 55%;
+  }
+  .centerEl2 .button {
+    width: 35%;
+  }
+}
