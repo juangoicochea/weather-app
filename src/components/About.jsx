@@ -13,8 +13,8 @@ export default function About () {
                 <a href="https://www.linkedin.com/in/juan-carlos-goicochea-b319b181/">
                     <img className='sociallogo' src={linkedin} alt='Linkedin' />
                 </a>
-                <a href="https://github.com/juanopeth4">
-                    <img className='sociallogo' src={github} alt='Github' />
+                <a href="https://github.com/juangoicochea">
+                    <img className='sociallogo' src={github} alt='juangoicochea Github' />
                 </a>
             </p>
         </div>
