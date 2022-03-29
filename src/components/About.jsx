@@ -10,7 +10,7 @@ export default function About () {
             <p>This is an individual project where I made using React with Routing and CSS Styles for the frontend.</p>
             <p>This App is 100% responsive made it with CSS.</p>
             <p>If you are interested for kwon more about my skills you can get in touch at:
-                <a href="https://www.linkedin.com/in/juan-carlos-goicochea-b319b181/">
+                <a href="https://www.linkedin.com/in/juan-goicochea/">
                     <img className='sociallogo' src={linkedin} alt='Linkedin' />
                 </a>
                 <a href="https://github.com/juangoicochea">
